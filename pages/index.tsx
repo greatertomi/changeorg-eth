@@ -1,7 +1,10 @@
+import Navbar from "../components/navbar";
+
 export default function Home() {
   return (
-    <div className="text-3xl font-bold">
+    <div>
+      <Navbar />
       Hello world!
     </div>
-  )
+  );
 }
